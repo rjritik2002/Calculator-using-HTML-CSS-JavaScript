@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    margin: 35px 0 35px 0;
+}
+
+.container{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.btn{
+    padding: 17px 22px;
+    margin: 3px 5px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+    width: 65px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    font-weight: 900;
+    font-size: 25px;
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+}
